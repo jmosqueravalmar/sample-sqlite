@@ -3,21 +3,36 @@
   "views": [
     {
       "type": "kendo-ui-mobile:view",
-      "name": "home",
+      "name": "principal",
       "components": [],
-      "title": "Home View",
+      "title": "Principal",
       "addToNavigation": true,
       "icon": "home"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "agregar",
+      "components": [],
+      "title": "Agregar",
+      "addToNavigation": true,
+      "icon": "play"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "modificar",
+      "components": [],
+      "title": "Modificar",
+      "addToNavigation": false
     }
   ],
   "dataProviders": [],
   "name": "kendoUiMobileApp",
   "navigation": "tabstrip",
-  "view": "home",
+  "view": "principal",
   "transition": "slide",
   "showMoreTab": true,
-  "skin": "nova",
-  "skinMainColor": "#32364c",
+  "skin": "flat",
+  "skinMainColor": "#1a1a1a",
   "skinTextColor": "#ffffff",
-  "skinAccentColor": "#ff4350"
+  "skinAccentColor": "#000099"
 }

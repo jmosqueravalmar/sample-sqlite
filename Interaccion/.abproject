@@ -2,28 +2,26 @@
   "ProjectName": "Interaccion",
   "ProjectGuid": "8346e4af-e7c4-4383-8994-d69a1615678c",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.Interaccion",
+  "AppIdentifier": "com.prueba.datos",
   "DisplayName": "Interaccion",
-  "Author": "",
+  "Author": "Valmar Group",
   "Description": "Interaccion",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
-    "1",
-    "2"
+    "1"
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "4.0.0",
+  "FrameworkVersion": "6.4.0",
   "AndroidPermissions": [
     "android.permission.INTERNET"
   ],
   "DeviceOrientations": [
-    "Portrait",
-    "Landscape"
+    "Portrait"
   ],
   "AndroidHardwareAcceleration": "true",
-  "iOSStatusBarStyle": "Default",
+  "iOSStatusBarStyle": "Hidden",
   "Framework": "Cordova",
   "WP8TileTitle": "",
   "WP8Publisher": "",
@@ -41,5 +39,13 @@
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
+  ],
+  "CordovaPluginVariables": {},
+  "CorePlugins": [
+    "com.phonegap.plugins.sqlite@1.1.0",
+    "cordova-plugin-console",
+    "cordova-plugin-device",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-whitelist"
   ]
 }

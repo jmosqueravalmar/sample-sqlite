@@ -4,7 +4,13 @@
     "showMoreTitle": "Show More",
     "qrCodeScan": "Scan"
   },
-  "home": {
-    "title": "Home View"
+  "principal": {
+    "title": "Principal"
+  },
+  "agregar": {
+    "title": "Agregar"
+  },
+  "modificar": {
+    "title": "Modificar"
   }
 }
